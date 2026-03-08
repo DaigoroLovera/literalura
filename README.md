@@ -1,8 +1,15 @@
 # Literalura
 
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-Framework-brightgreen)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Maven](https://img.shields.io/badge/Maven-Build-red)
+![API](https://img.shields.io/badge/API-Gutendex-purple)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 ## Descripción
 
-Literalura es una aplicación en **Java con Spring Boot** que permite buscar libros en la API de **Gutendex**, registrarlos en una base de datos **PostgreSQL**, y consultar información sobre libros y autores.
+Literalura es una aplicación desarrollada en **Java con Spring Boot** que permite buscar libros utilizando la **API de Gutendex**, registrar la información en una base de datos **PostgreSQL** y consultar datos sobre libros y autores mediante un menú interactivo en consola.
 
 ## Funcionalidades
 
@@ -27,7 +34,13 @@ Literalura es una aplicación en **Java con Spring Boot** que permite buscar lib
 Clonar el repositorio:
 
 ```
-git clone <URL-del-repositorio>
+git clone https://github.com/DaigoroLovera/literalura
+```
+
+Entrar al directorio del proyecto:
+
+```
+cd literalura
 ```
 
 Configurar PostgreSQL y crear la base de datos:
@@ -36,7 +49,7 @@ Configurar PostgreSQL y crear la base de datos:
 literalura_db
 ```
 
-Configurar `application.properties` con tu usuario y contraseña de PostgreSQL.
+Configurar el archivo `application.properties` con tu usuario y contraseña de PostgreSQL.
 
 Ejecutar la aplicación:
 
@@ -46,7 +59,7 @@ mvn spring-boot:run
 
 ## Uso
 
-Al ejecutar la aplicación, se mostrará un menú con las siguientes opciones:
+Al ejecutar la aplicación se mostrará un menú con las siguientes opciones:
 
 1. Buscar libro por título
 2. Listar libros registrados
